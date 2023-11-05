@@ -7,7 +7,5 @@ public class Demo {
         Director director = new Director();
         CarBuilder builder = new CarBuilder();
         director.constructSportsCar(builder);
-
-
     }
 }
