@@ -5,33 +5,18 @@
     <projectFile>Builder-Director/Builder-Director.csproj</projectFile>
     <projectFile>Builder-NoDirector/Builder-NoDirector.csproj</projectFile>
     <projectFile>Builder-SimpleBuilder/Builder-SimpleBuilder.csproj</projectFile>
+    <projectFile>Builder-StaticBuilder/Builder-StaticBuilder.csproj</projectFile>
     <projectFile>Builder/Builder.csproj</projectFile>
+    <projectFile>Observable-List/Observable-List.csproj</projectFile>
+    <projectFile>Observer-Delegates/Observer-Delegates.csproj</projectFile>
+    <projectFile>Observer-List/Observer-List.csproj</projectFile>
     <projectFile>Singleton/Singleton.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dac92b12-f5c6-4d68-be42-3f88d262a48c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Builder-Director/BattlecruiserBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder-Director/Director.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder-Director/FlagshipBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder-Director/IBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder-Director/ScoutShipBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder-Director/Ship.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder-StaticBuilder/Builder-StaticBuilder.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder-StaticBuilder/Computer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder-StaticBuilder/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Patterns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder-Director/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Builder-Director/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder-Director/obj/Debug/net8.0/Builder-Director.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Builder-Director/obj/Debug/net8.0/Builder-Director.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder-Director/obj/Debug/net8.0/Builder-Director.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Builder-Director/obj/Debug/net8.0/Builder-Director.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder-SimpleBuilder/obj/Debug/net8.0/Builder-SimpleBuilder.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Builder-SimpleBuilder/obj/Debug/net8.0/Builder-SimpleBuilder.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder-SimpleBuilder/obj/Debug/net8.0/Builder-SimpleBuilder.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Builder-SimpleBuilder/obj/Debug/net8.0/Builder-SimpleBuilder.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singleton/obj/Debug/net8.0/Singleton.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/obj/Debug/net8.0/Singleton.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singleton/obj/Debug/net8.0/Singleton.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/obj/Debug/net8.0/Singleton.AssemblyInfoInputs.cache" afterDir="false" />
-    </list>
+    <list default="true" id="dac92b12-f5c6-4d68-be42-3f88d262a48c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +44,9 @@
     ".NET Project.Builder - StaticBuilder.executor": "Run",
     ".NET Project.Builder-NoDirector.executor": "Run",
     ".NET Project.Builder-SimpleBuilder.executor": "Run",
+    ".NET Project.Builder-StaticBuilder.executor": "Run",
+    ".NET Project.Observer-Delegates.executor": "Run",
+    ".NET Project.Observer-List.executor": "Run",
     ".NET Project.Singleton.executor": "Run",
     ".NET Project.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -79,6 +67,80 @@
     ]
   }
 }]]></component>
+  <component name="RunManager" selected=".NET Project.Observer-Delegates">
+    <configuration name="Builder-StaticBuilder" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Builder-StaticBuilder/Builder-StaticBuilder.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Observable-List" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Observable-List/Observable-List.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Observer-Delegates" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Observer-Delegates/Observer-Delegates.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Observer-List" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Observer-List/Observer-List.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,6 +154,7 @@
       <workItem from="1717302354926" duration="3361000" />
       <workItem from="1717306042850" duration="499000" />
       <workItem from="1717422101737" duration="2499000" />
+      <workItem from="1717426752045" duration="1362000" />
     </task>
     <servers />
   </component>
