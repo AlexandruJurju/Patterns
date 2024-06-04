@@ -1,0 +1,9 @@
+Observer with delegates:
+	https://www.youtube.com/watch?v=UWMmib1RYFE
+
+	https://www.youtube.com/watch?v=Qa8QUru6hc0&t=178s
+
+	https://www.youtube.com/watch?v=3FAHH1TYkjU&t=4s
+	
+Factory + Abstract Factory:
+	https://www.youtube.com/watch?v=QNpwWkdFvgQ

@@ -1,6 +1,4 @@
-﻿using Factory_CorrectFactory.Products;
-
-namespace Factory_CorrectFactory.Factories;
+﻿namespace Factory_CorrectFactory.Products;
 
 public class AmdGpu : IGpu
 {

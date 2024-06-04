@@ -1,6 +1,6 @@
-﻿using Factory_CorrectFactory.Factories;
+﻿using Factory_CorrectFactory.Products;
 
-namespace Factory_CorrectFactory.Products;
+namespace Factory_CorrectFactory.Factories;
 
 public class NvidiaFactory : Factory
 {
