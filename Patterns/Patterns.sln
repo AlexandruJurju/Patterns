@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer-List", "Observer-L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer-Delegates", "Observer-Delegates\Observer-Delegates.csproj", "{F3994189-E64C-454D-8B30-8A9EAEC0E953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory-SimpleFactory", "Factory-SimpleFactory\Factory-SimpleFactory.csproj", "{9FFB42B1-4EFA-42EA-826E-BCD4D4ECA148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory-CorrectFactory", "Factory-CorrectFactory\Factory-CorrectFactory.csproj", "{D5A2526E-A23E-4955-A289-F4B10F260798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{F3994189-E64C-454D-8B30-8A9EAEC0E953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3994189-E64C-454D-8B30-8A9EAEC0E953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3994189-E64C-454D-8B30-8A9EAEC0E953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFB42B1-4EFA-42EA-826E-BCD4D4ECA148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFB42B1-4EFA-42EA-826E-BCD4D4ECA148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFB42B1-4EFA-42EA-826E-BCD4D4ECA148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFB42B1-4EFA-42EA-826E-BCD4D4ECA148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A2526E-A23E-4955-A289-F4B10F260798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A2526E-A23E-4955-A289-F4B10F260798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A2526E-A23E-4955-A289-F4B10F260798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A2526E-A23E-4955-A289-F4B10F260798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

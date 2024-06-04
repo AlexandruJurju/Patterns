@@ -7,6 +7,8 @@
     <projectFile>Builder-SimpleBuilder/Builder-SimpleBuilder.csproj</projectFile>
     <projectFile>Builder-StaticBuilder/Builder-StaticBuilder.csproj</projectFile>
     <projectFile>Builder/Builder.csproj</projectFile>
+    <projectFile>Factory-CorrectFactory/Factory-CorrectFactory.csproj</projectFile>
+    <projectFile>Factory-SimpleFactory/Factory-SimpleFactory.csproj</projectFile>
     <projectFile>Observable-List/Observable-List.csproj</projectFile>
     <projectFile>Observer-Delegates/Observer-Delegates.csproj</projectFile>
     <projectFile>Observer-List/Observer-List.csproj</projectFile>
@@ -16,7 +18,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dac92b12-f5c6-4d68-be42-3f88d262a48c" name="Changes" comment="" />
+    <list default="true" id="dac92b12-f5c6-4d68-be42-3f88d262a48c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Factory-CorrectFactory/Factories/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory-CorrectFactory/Factories/Factory.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +49,8 @@
     ".NET Project.Builder-NoDirector.executor": "Run",
     ".NET Project.Builder-SimpleBuilder.executor": "Run",
     ".NET Project.Builder-StaticBuilder.executor": "Run",
+    ".NET Project.Factory-CorrectFactory.executor": "Run",
+    ".NET Project.Factory-SimpleFactory.executor": "Run",
     ".NET Project.Observer-Delegates.executor": "Run",
     ".NET Project.Observer-List.executor": "Run",
     ".NET Project.Singleton.executor": "Run",
@@ -67,8 +73,8 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Observer-Delegates">
-    <configuration name="Builder-StaticBuilder" type="DotNetProject" factoryName=".NET Project">
+  <component name="RunManager" selected=".NET Project.Factory-CorrectFactory">
+    <configuration name="Factory-CorrectFactory" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -76,7 +82,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Builder-StaticBuilder/Builder-StaticBuilder.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Factory-CorrectFactory/Factory-CorrectFactory.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -86,7 +92,7 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Observable-List" type="DotNetProject" factoryName=".NET Project">
+    <configuration name="Factory-SimpleFactory" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -94,43 +100,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Observable-List/Observable-List.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="Observer-Delegates" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Observer-Delegates/Observer-Delegates.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="Observer-List" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Observer-List/Observer-List.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Factory-SimpleFactory/Factory-SimpleFactory.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -155,6 +125,8 @@
       <workItem from="1717306042850" duration="499000" />
       <workItem from="1717422101737" duration="2499000" />
       <workItem from="1717426752045" duration="1362000" />
+      <workItem from="1717508666752" duration="211000" />
+      <workItem from="1717509964236" duration="1468000" />
     </task>
     <servers />
   </component>
